@@ -1,0 +1,43 @@
+.item-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row {
+  display: contents;
+}
+
+.item-actions {
+  white-space: nowrap;
+}
+
+.btn-item {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  margin-right: 5px;
+  background-color: #2196F3;
+}
+
+.btn-delete {
+  background-color: #f44336;
+}
+
+.service-name {
+  grid-column: 1;
+}
+
+.service-price {
+  grid-column: 2;
+  text-align: right;
+  font-family: monospace;
+}
+
+.item-actions {
+  grid-column: 3;
+  text-align: center;
+}

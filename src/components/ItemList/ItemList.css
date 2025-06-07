@@ -1,0 +1,39 @@
+.list-container {
+  margin-top: 20px;
+}
+
+.empty-message {
+  color: #666;
+  font-style: italic;
+}
+
+.table-container {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.table-header {
+  display: contents;
+}
+
+.table-header > div {
+  font-weight: bold;
+  padding: 10px;
+  background: #f2f2f2;
+  position: sticky;
+  top: 0;
+}
+
+.table-header > .price {
+  text-align: right;
+}
+
+.table-row > div {
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
