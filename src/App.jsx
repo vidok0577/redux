@@ -1,9 +1,7 @@
-import React from 'react';
 import { Provider } from 'react-redux';
 import { store } from './app/store';
 import ItemForm from './components/ItemForm/ItemForm';
 import ItemList from './components/ItemList/ItemList';
-import Filter from './components/Filter/Filter';
 import './App.css';
 
 function App() {
